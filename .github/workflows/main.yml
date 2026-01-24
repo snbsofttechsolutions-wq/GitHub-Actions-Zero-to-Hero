@@ -21,4 +21,4 @@ jobs:
 
       - name: Run Script
         working-directory: src/
-        run: python sum_script.py 100 120
+        run: python sum_script.py 1000 1000
