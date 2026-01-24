@@ -16,5 +16,5 @@ jobs:
           python-version: '3.10'
 
       - name: Run Script
-        working-directory: .github/workflows/
+        working-directory: src/
         run: python sum_script.py 100 101
