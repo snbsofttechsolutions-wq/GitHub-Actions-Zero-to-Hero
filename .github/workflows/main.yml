@@ -17,4 +17,4 @@ jobs:
 
       - name: Run Script
         working-directory: .github/workflows/
-        run: python sum_script.py 50 50
+        run: python sum_script.py 100 50
