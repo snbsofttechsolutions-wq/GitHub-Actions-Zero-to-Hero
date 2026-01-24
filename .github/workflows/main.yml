@@ -15,6 +15,10 @@ jobs:
         with:
           python-version: '3.10'
 
+      - name: Debug - List all files
+        # This shows exactly what folders and files exist in the runner
+        run: ls -R
+
       - name: Run Script
         working-directory: src/
         run: python sum_script.py 100 120
